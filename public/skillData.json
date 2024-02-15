@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "title": "Frontend",
+      "skills": [
+        {
+          "name": "HTML",
+          "image": "./logos/html.png"
+        },
+        {
+          "name": "CSS",
+          "image": "./logos/css.png"
+        },
+        {
+          "name": "Javascript",
+          "image": "./logos/js.png"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "skills": [
+        {
+          "name": "React",
+          "image": "./logos/react.jpg"
+        },
+        {
+          "name": "Next.js",
+          "image": "./logos/nextjs.png"
+        },
+        {
+          "name": "Angular",
+          "image": "./logos/angular.jpg"
+        }
+      ]
+    },
+    {
+      "title": "APIs",
+      "skills": [
+        {
+          "name": "REST API",
+          "image": "./logos/api3.png"
+        },
+        {
+          "name": "JSON",
+          "image": "./logos/json3.png"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        {
+          "name": "Node.js",
+          "image": "./logos/nodejs.png"
+        },
+        {
+          "name": "Express.js",
+          "image": "./logos/express.png"
+        },
+        {
+          "name": "Java",
+          "image": "./logos/java.png"
+        }
+      ]
+    },
+    {
+      "title": "Devops",
+      "skills": [
+        {
+          "name": "Git",
+          "image": "./logos/git.jpg"
+        },
+        {
+          "name": "Docker",
+          "image": "./logos/docker.jpg"
+        },
+        {
+          "name": "Microsoft Azure",
+          "image": "./logos/azure.png"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "skills": [
+        {
+          "name": "MySQL",
+          "image": "./logos/mysql.png"
+        },
+        {
+          "name": "Firebase",
+          "image": "./logos/firebase.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "DBZ-Gym Website",
+    "image": "./dbz.png",
+    "description": "This website is a personal project, combining a passion for fitness and the iconic DBZ series in this website we used React.js for the frontend, Firebase Realtime Database for data storage, and Auth0 for authentication. Styling is done using Bootstrap5 and dynamically fetching data from a JSON file, ensuring flexibility and easy updates, rather than hardcoding them",
+    "githubLink": "https://github.com/yourusername/project1",
+    "demoLink": "https://dbz-gym-react-website.vercel.app/"
+  },
+  {
+    "title": "Dev-Blog",
+    "image": "./devblog.png",
+    "description": "Welcome to my blog! Discover coding basics with simple examples and visuals in frontend, backend, databases, and DevOps practices. Next.js and Tailwind CSS in conjunction with MDX files for rapid development, streamlining the process of building a developer blog with efficiency and speed.",
+    "githubLink": "https://github.com/yourusername/project2",
+    "demoLink": "https://dev-blog-puce.vercel.app/"
+  },
+  {
+    "title": "Tic-Tac-Toe",
+    "image": "./tictactoe.png",
+    "description": "This repository contains a simple Tic-Tac-Toe game implemented in React, In this project, I've focused on building the core logic for the game, including player moves, win conditions, and game resets.",
+    "githubLink": "https://github.com/yourusername/project2",
+    "demoLink": "https://demo.project2.com"
+  },
+  {
+    "title": "To-Do App React",
+    "image": "./todo.png",
+    "description": "This combination of React, Tailwind CSS, and local storage management provides a modern and efficient solution for building and styling a Todo List component user can write, edit, check and delete his tasks.",
+    "githubLink": "https://github.com/AjinkyaBhosale1998/Sticky_Notes_React",
+    "demoLink": "https://ajinkyabhosale1998.github.io/Sticky_Notes_React/"
+  },
+  {
+    "title": "React Projects",
+    "image": "./reactproj.jpg",
+    "description": "I've developed a collection of React projects showcasing various skills, including integration with weather APIs, news APIs, geolocation APIs, as well as creating simple projects to demonstrate logic building and highlight UI skills.",
+    "githubLink": "https://github.com/AjinkyaBhosale1998/React_Mini_Projects",
+    "demoLink": "https://github.com/AjinkyaBhosale1998/React_Mini_Projects"
+  },
+  {
+    "title": " Web3 Projects",
+    "image": "./block.png",
+    "description": "In this project, we used React for the frontend, incorporating Ethereum.js, Web3.js packages, and Express for the backend, alongside Solidity for smart contracts. Metamask wallet integration enhances user interactions.",
+    "githubLink": "https://github.com/AjinkyaBhosale1998/Web3_Blockchain",
+    "demoLink": "https://github.com/AjinkyaBhosale1998/Web3_Blockchain"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "experience": [
+    {
+      "role": "Play-a-thon Web App - Frontend Developer",
+      "date": "Senior Associate Engineer at Ascendion <br> [ Jan 2023 - Present ]",
+      "description": "● Currently working as React Developer on the development of a clone project, aiming to reproduce the pixel perfect user interface (UI), features, and functionality of the Ionic website.\n● Worked on popup screens, dropdown menus, and sidebars on web pages to make UI functional and responsive.\n● Constructed reusable and scalable components with state management using React Hooks and Redux.\n● Worked on enhancing search functionality by using JSON data with autocomplete suggestions.\n● Custom Validations & proficient in creating UIs that look and function seamlessly across different devices and screen resolutions."
+    },
+    {
+      "role": "FIS Global - Frontend Developer",
+      "date": "Associate Engineer at Collabera / Ascendion <br> [ Jan 2022 - Nov 2023 ]",
+      "description": "● Leveraged the BOD Framework, which was similar to Material UI, to enhance the user experience.\n● Utilized AJAX calls and callback functions to enhance user interactions and implemented robust form validation logic.\n● Analysis of XML and JSON data from the old application to identify and recreate missing components for rendering of pages.\n● Successfully managed critical modules, consistently delivering high-priority work within established timelines. \n● Successfully implemented dynamic rendering for banking details with complex functionality, displaying names and account numbers"
+    },
+    {
+      "role": "Trainee ",
+      "date": "Software Engineer at HefShine Softwares <br> [ Sept 2021 - Jan 2022 ]",
+      "description": "● Experience trainee with strong foundation in Java, Java Collection & MySQL.\n● Angular JS, HTML & CSS.\n● Version Control - GitHub."
+    }
+  ]
+}
