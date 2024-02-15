@@ -7,7 +7,7 @@ const Project = () => {
   const [projects, setProjects] = useState([]);
 
   const interests = [
-    "🕺 Dancing, 🏏 Cricket | 🤸🏻 Calisthenics  | 🦊 Anime | 🤖 Exploring Gen AI",
+    "🕺 Dancing |🏏 Cricket | 🤸🏻 Calisthenics  | 🦊 Anime ",
   ];
 
   useEffect(() => {
@@ -91,12 +91,12 @@ const Project = () => {
               textAlign: "center",
             }}
           >
-            Apart from coding, some other activities that I love to do!
+          Exploring Gen AI & Apart from coding, some other activities that I love to do!
           </Typography>
           {interests.map((interest, index) => (
             <Typography
               key={index}
-              variant="body2"
+              variant="body3"
               sx={{
                 color: "#132043",
                 marginBottom: 2,

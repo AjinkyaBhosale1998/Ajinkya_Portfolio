@@ -14,7 +14,7 @@ const ImgMediaCard = ({ title, image, description, githubLink, demoLink }) => {
     <Box sx={{ padding: "50px 25px" }}>
       <Card
         sx={{
-          maxWidth: 300,
+          maxWidth: 400,
           boxShadow: "0 10px 20px rgba(19, 32, 67, 0.5)",
           color: "#132043",
         }}
@@ -22,10 +22,10 @@ const ImgMediaCard = ({ title, image, description, githubLink, demoLink }) => {
         <CardMedia
           component="img"
           alt="project image"
-          height="140"
+          height="180"
           image={image}
         />
-        <CardContent sx={{ padding: "16px" }}>
+        <CardContent sx={{ padding: "16px", display: "flex", flexDirection: "column", minHeight: "180px" }}>
           <Typography
             gutterBottom
             variant="h5"

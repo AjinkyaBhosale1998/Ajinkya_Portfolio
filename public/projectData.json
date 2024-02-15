@@ -2,7 +2,7 @@
   {
     "title": "DBZ-Gym Website",
     "image": "./dbz.png",
-    "description": "This website is a personal project, combining a passion for fitness and the iconic DBZ series in this website we used React.js for the frontend, Firebase Realtime Database for data storage, and Auth0 for authentication. Styling is done using Bootstrap5 and dynamically fetching data from a JSON file, ensuring flexibility and easy updates, rather than hardcoding them",
+    "description": "In this website we used React.js for the frontend, Firebase Realtime Database for data storage, and Auth0 for authentication. Styling is done using Bootstrap5 and dynamically fetching data from a JSON file, ensuring flexibility and easy updates, rather than hardcoding them",
     "githubLink": "https://github.com/yourusername/project1",
     "demoLink": "https://dbz-gym-react-website.vercel.app/"
   },
