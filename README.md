@@ -1,3 +1,6 @@
+
+![ajinkya-portfolio](https://github.com/AjinkyaBhosale1998/Ajinkya_Portfolio/assets/91610163/c33dcfb9-6380-4e50-ab84-1238f67ca0a7)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
