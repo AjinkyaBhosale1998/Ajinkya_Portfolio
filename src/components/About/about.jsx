@@ -49,14 +49,17 @@ const About = () => {
             <span className="developer">Developer</span>
           </Typography>
           <Typography variant="h6" gutterBottom>
-            With 2+ years of experience, I am a skilled Front-End Web Developer
-            specializing in React, Angular, JavaScript/TypeScript, HTML, and
-            CSS.
+          Skilled Front-End Web Developer with 3+ years of experience in the high-tech and banking sectors. 
+          Leveraging hands-on expertise in modern web technologies to deliver pixel-perfect UIs and 
+          build robust web applications using React, JavaScript ES6, and GraphQL. Creating responsive, 
+          high-performance solutions that drive business success.
           </Typography>
-          <Typography variant="h6" sx={{ marginTop: 3 }}>
+          {/* <Typography variant="h6" sx={{ marginTop: 3 }}>
             My focus is on crafting pixel-perfect UIs and creating reusable,
-            scalable components. I'm passionate about clean, efficient code and
-            have hands-on experience in React.
+            scalable components. I'm passionate about clean, efficient code.
+          </Typography> */}
+          <Typography variant="h6" sx={{ marginTop: 3 }}>
+          I've worked with clients such as FIS Global (Banking Domain) & Cisco (High-Tech Domain).
           </Typography>
           <Typography className="cool" variant="h3" sx={{ marginTop: 2 }}>
             Let's build cool things!
