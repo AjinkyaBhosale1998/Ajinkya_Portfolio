@@ -4,16 +4,16 @@
       "title": "Frontend",
       "skills": [
         {
-          "name": "HTML",
-          "image": "./logos/html.png"
-        },
-        {
-          "name": "CSS",
-          "image": "./logos/css.png"
+          "name": "HTML / CSS",
+          "image": "./logos/htmlcss.jpg"
         },
         {
           "name": "Javascript",
           "image": "./logos/js.png"
+        },
+        {
+          "name": "Typescript",
+          "image": "./logos/ts.png"
         }
       ]
     },
@@ -38,12 +38,16 @@
       "title": "APIs",
       "skills": [
         {
+          "name": "GraphQL",
+          "image": "./logos/graphql.png"
+        },
+        {
           "name": "REST API",
           "image": "./logos/api3.png"
         },
         {
-          "name": "JSON",
-          "image": "./logos/json3.png"
+          "name": "Axios",
+          "image": "./logos/axios.png"
         }
       ]
     },
@@ -59,8 +63,8 @@
           "image": "./logos/express.png"
         },
         {
-          "name": "Java",
-          "image": "./logos/java.png"
+          "name": "Python",
+          "image": "./logos/py.jpg"
         }
       ]
     },
@@ -84,6 +88,10 @@
     {
       "title": "Databases",
       "skills": [
+        {
+          "name": "PostgreSQL",
+          "image": "./logos/postgresql.png"
+        },
         {
           "name": "MySQL",
           "image": "./logos/mysql.png"
