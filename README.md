@@ -1,5 +1,5 @@
 
-![ajinkya-portfolio](https://github.com/AjinkyaBhosale1998/Ajinkya_Portfolio/assets/91610163/c33dcfb9-6380-4e50-ab84-1238f67ca0a7)
+![ajinkya-portfolio-git-update-ajinkya-bhosales-projects-vercel-app-2025-02-18-03_17_14](https://github.com/user-attachments/assets/ddae36fb-802b-4a61-8557-ed578b34b59f)
 
 # Getting Started with Create React App
 
