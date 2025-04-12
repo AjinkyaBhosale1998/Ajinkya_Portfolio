@@ -72,10 +72,11 @@ const Contact = () => {
           fullWidth
           sx={{ marginBottom: "20px" }}
         />
-
-        <Button type="submit" variant="contained" size="large">
-          Submit
-        </Button>
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}>
+          <Button type="submit" variant="contained" size="large" style={{ bgcolor: "#132043" }}>
+            Submit
+          </Button>
+        </div>
       </form>
     </Box>
   );

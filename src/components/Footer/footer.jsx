@@ -6,6 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import Typography from "@mui/material/Typography";
+import PlayArrow from "@mui/icons-material/PlayArrow";
 
 const Footer = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -38,6 +39,8 @@ const Footer = () => {
   const githubRepositoryUrl = "https://github.com/AjinkyaBhosale1998";
 
   const linkedInUrl = "https://www.linkedin.com/in/ajinkya-bhosale-b8b2b0204/";
+
+  const vercelUrl = "https://vercel.com/ajinkya-bhosales-projects";
 
   return (
     <Box
@@ -84,6 +87,13 @@ const Footer = () => {
             icon={<LinkedInIcon />}
           />
           <BottomNavigationAction
+            href={vercelUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{ color: "#fff", transform: "rotate(-90deg)" }}
+            icon={<PlayArrow />}
+          />
+          <BottomNavigationAction
             href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -96,7 +106,7 @@ const Footer = () => {
           color="text.secondary"
           sx={{ marginInline: "60px", fontSize: "1.2rem", color: "#fff" }}
         >
-          © 2024 • A J I N K Y A
+          © 2025 • A J I N K Y A
         </Typography>
       </Box>
     </Box>

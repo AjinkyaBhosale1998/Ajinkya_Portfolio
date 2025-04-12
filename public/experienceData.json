@@ -1,19 +1,19 @@
 {
   "experience": [
     {
-      "role": "Cisco CX Labs (CXLT) - Frontend Web Developer",
+      "role": "Cisco CX Labs (CXLT) - Frontend React.js Developer",
       "date": "Senior Associate Engineer <br> Ascendion Inc. | Cisco Systems, Inc. <br> [ Jan 2023 – Present ]",
-      "description": "● Implemented complex UI modules with advanced error validation using Formik, dynamically displaying content based on user input to enhance form handling and overall user experience.\n● Collaborated with backend teams to integrate modern GraphQL APIs, leveraging queries for efficient data retrieval and mutations for dynamic updates in frontend design.\n● Developed reusable, pure React components to minimize regression risks and promote code maintainability.\n● Identified the root causes of errors in hotfix and ad hoc tasks, debugged issues, and implemented fixes within strict timelines to ensure smooth application functionality.\n● Partnered with product owners, stakeholders, and team members to enforce best practices, mentor junior developers, conduct rigorous code reviews, and coordinate with cross-functional teams."
+      "description": "🔹 Implemented complex UI modules with advanced error validation using Formik, dynamically displaying content based on user input to enhance form handling and overall user experience.\n🔹 Collaborated with backend teams to integrate modern GraphQL APIs, leveraging queries for efficient data retrieval and mutations for dynamic updates in frontend design.\n🔹 Developed reusable, pure React components to minimize regression risks and promote code maintainability.\n🔹 Identified the root causes of errors in hotfix and ad hoc tasks, debugged issues, and implemented fixes within strict timelines to ensure smooth application functionality.\n🔹 Partnered with product owners, stakeholders, and team members to enforce best practices, mentor junior developers, conduct rigorous code reviews, and coordinate with cross-functional teams."
     },
     {
       "role": "FIS Global - Frontend Developer",
       "date": "Ascendion Inc. (Previously Collabera) | FIS Global <br> [ Jan 2022 – Dec 2022 ]",
-      "description": "● Worked on UI development and transitioning a banking app from Internet Explorer to modern browsers (e.g., Chrome, Firefox, Edge).\n● Implemented critical banking validations and custom data mapping, optimizing asynchronous data fetching to ensure dynamic and accurate UI displays that met business requirements.\n● Enhanced user interactions by utilizing AJAX calls and callback functions, and developed robust form validation logic to improve data integrity and user experience.\n● Successfully managed critical modules, consistently delivering high-priority work within established timelines."
+      "description": "🔹 Worked on UI development and transitioning a banking app from Internet Explorer to modern browsers (e.g., Chrome, Firefox, Edge).\n🔹 Implemented critical banking validations and custom data mapping, optimizing asynchronous data fetching to ensure dynamic and accurate UI displays that met business requirements.\n🔹 Enhanced user interactions by utilizing AJAX calls and callback functions, and developed robust form validation logic to improve data integrity and user experience.\n🔹 Successfully managed critical modules, consistently delivering high-priority work within established timelines."
     },
     {
       "role": "Trainee Software Engineer",
       "date": "HefShine Softwares <br> [ Sept 2021 – Jan 2022 ]",
-      "description": "● Gained hands-on experience as a trainee with a strong foundation in React, Angular, HTML/CSS while mastering Git workflows on GitHub.\n● Expanded skillset by working with Java, Java Collections, and MySQL."
+      "description": "🔹 Gained hands-on experience as a trainee with a strong foundation in React, Angular, HTML/CSS while mastering Git workflows on GitHub.\n🔹 Expanded skillset by working with Java, Java Collections, and MySQL."
     }
   ]
 }

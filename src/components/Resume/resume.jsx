@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import DownloadIcon from "@mui/icons-material/Download";
 import ExperienceTimeline from "./timeline.jsx";
+import { Card } from "@mui/material";
 
 const Resume = () => {
   const [experienceData, setExperienceData] = useState([]);
@@ -51,15 +52,22 @@ const Resume = () => {
         With 2.2 years of experience, I am a skilled Front-End Web Developer
         specializing in React JS, Angular, JavaScript/TypeScript, HTML, and CSS.
       </Typography>*/}
-      <Typography variant="h6" sx={{ m: "auto 10", py: "10px", px: 9 }}>
-        I'm obsessed with crafting pixel-perfect UIs, proficient in HTML, CSS,
-        Javascript/Typescript & have hands-on experience with React and Angular.
-      </Typography>
-      <Typography variant="h6">
-        Additionally, I've explored Docker, Node.js, Microsoft Azure, CI/CD for
-        a short period of time.
-      </Typography>
-
+      <Card sx={{
+        p: 2,
+        mb: 2,
+        mx: 13,
+        backgroundColor: "#f9f9f9",
+        borderRadius: 3,
+        boxShadow: 2,
+        borderLeft: "5px solid #4995E6",
+      }}>
+        <Typography variant="h6" sx={{ textAlign: "left", m: "auto 10", }}>
+          🚀  I'm obsessed with crafting pixel-perfect UIs, delivering scalable, high-performance web applications that align with business goals and user needs.
+        </Typography>
+        <Typography variant="h6" sx={{ textAlign: "left", m: "auto 10", }}>
+          🚀 Beyond coding, I’ve actively participated in resolving production issues, addressing build failures, managing hotfixes, and tackling high-priority tasks. I’ve also guided junior developers, conducted client-side code reviews, and recently dabbed into Jenkins, Azure, and GCP for deployment and CI/CD automation.
+        </Typography>
+      </Card>
       <ExperienceTimeline experienceData={experienceData} />
 
       <Button
