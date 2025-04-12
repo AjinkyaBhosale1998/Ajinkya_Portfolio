@@ -49,17 +49,17 @@ const About = () => {
             <span className="developer">Developer</span>
           </Typography>
           <Typography variant="h6" gutterBottom>
-          Skilled Front-End Web Developer with 3+ years of experience in the high-tech and banking sectors. 
-          Leveraging hands-on expertise in modern web technologies to deliver pixel-perfect UIs and 
-          build robust web applications using React, JavaScript ES6, and GraphQL. Creating responsive, 
-          high-performance solutions that drive business success.
+            Skilled Front-End Web Developer with 3+ years of experience in the high-tech and banking sectors.
+            Leveraging hands-on expertise in modern web technologies to deliver pixel-perfect UIs and
+            build robust web applications using React, JavaScript ES6, and GraphQL. Creating responsive,
+            high-performance solutions that drive business success.
           </Typography>
           {/* <Typography variant="h6" sx={{ marginTop: 3 }}>
             My focus is on crafting pixel-perfect UIs and creating reusable,
             scalable components. I'm passionate about clean, efficient code.
           </Typography> */}
           <Typography variant="h6" sx={{ marginTop: 3 }}>
-          I've worked with clients such as FIS Global (Banking Domain) & Cisco (High-Tech Domain).
+            I've worked with clients such as FIS Global (Banking Domain) & Cisco (High-Tech Domain).
           </Typography>
           <Typography className="cool" variant="h3" sx={{ marginTop: 2 }}>
             Let's build cool things!
@@ -137,21 +137,36 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        Skills
+        Professional Skillset
       </Typography>
       <Box display="flex" justifyContent="center" flexWrap="wrap">
         {skills.map((category) => (
-          <div
+          <Box
             key={category.title}
-            style={{ margin: "16px", textAlign: "center" }}
+            sx={{
+              m: 2,
+              textAlign: "center",
+              transition: "transform 0.3s ease-in-out",
+              "&:hover .hover-content": {
+                transform: "scale(1.05)",
+              },
+            }}
           >
-            <Typography variant="h4" gutterBottom>
-              {category.title}
-            </Typography>
-            <SkillMasonry skills={category.skills} />
-          </div>
+            <Box
+              className="hover-content"
+              sx={{
+                transition: "transform 0.3s ease-in-out",
+              }}
+            >
+              <Typography variant="h4" gutterBottom>
+                {category.title}
+              </Typography>
+              <SkillMasonry skills={category.skills} />
+            </Box>
+          </Box>
         ))}
       </Box>
+
 
       <Divider
         orientation="horizontal"
