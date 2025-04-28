@@ -1,7 +1,7 @@
 {
   "experience": [
     {
-      "role": "Cisco CX Labs (CXLT) - Frontend React.js Developer",
+      "role": "CX Labs (CXLT) - Frontend React Developer",
       "date": "Senior Associate Engineer <br> Ascendion Inc. | Cisco Systems, Inc. <br> [ Jan 2023 – Present ]",
       "description": "🔹 Implemented complex UI modules with advanced error validation using Formik, dynamically displaying content based on user input to enhance form handling and overall user experience.\n🔹 Collaborated with backend teams to integrate modern GraphQL APIs, leveraging queries for efficient data retrieval and mutations for dynamic updates in frontend design.\n🔹 Developed reusable, pure React components to minimize regression risks and promote code maintainability.\n🔹 Identified the root causes of errors in hotfix and ad hoc tasks, debugged issues, and implemented fixes within strict timelines to ensure smooth application functionality.\n🔹 Partnered with product owners, stakeholders, and team members to enforce best practices, mentor junior developers, conduct rigorous code reviews, and coordinate with cross-functional teams."
     },

@@ -50,7 +50,7 @@ const Footer = () => {
         bottom: 0,
         textAlign: "center",
         padding: 2,
-        backgroundColor: "#132043",
+        backgroundColor: "background.paper",
         transition: "transform 0.3s ease-in-out",
         transform: `${isSticky ? "translateY(0)" : "translateY(100%)"}`,
       }}
@@ -61,13 +61,13 @@ const Footer = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          color: "#fff",
+          color: "text.primary",
         }}
       >
         <Typography
           variant="body2"
           color="text.secondary"
-          sx={{ marginInline: "20px", fontSize: "1.2rem", color: "#fff" }}
+          sx={{ marginInline: "20px", fontSize: "1.2rem", color: "text.primary" }}
         >
           Designed & Developed by A J I N K Y A
         </Typography>
@@ -76,35 +76,35 @@ const Footer = () => {
             href={githubRepositoryUrl}
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#fff" }}
+            sx={{ color: "text.primary" }}
             icon={<GitHubIcon />}
           />
           <BottomNavigationAction
             href={linkedInUrl}
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#fff" }}
+            sx={{ color: "text.primary" }}
             icon={<LinkedInIcon />}
           />
           <BottomNavigationAction
             href={vercelUrl}
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#fff", transform: "rotate(-90deg)" }}
+            sx={{ color: "text.primary", transform: "rotate(-90deg)" }}
             icon={<PlayArrow />}
           />
           <BottomNavigationAction
             href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#fff" }}
+            sx={{ color: "text.primary" }}
             icon={<YouTubeIcon />}
           />
         </BottomNavigation>
         <Typography
           variant="body2"
           color="text.secondary"
-          sx={{ marginInline: "60px", fontSize: "1.2rem", color: "#fff" }}
+          sx={{ marginInline: "60px", fontSize: "1.2rem", color: "text.primary" }}
         >
           © 2025 • A J I N K Y A
         </Typography>

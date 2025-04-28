@@ -35,9 +35,9 @@
     "demoLink": "https://github.com/AjinkyaBhosale1998/React_Mini_Projects"
   },
   {
-    "title": "🛒 Easy Shop - Shopify-Inspired",
+    "title": "🛒 Easy Shop",
     "image": "./easyshop.png",
-    "description": "This project is a lightweight, responsive shopping cart application built with React. It demonstrates essential e-commerce features such as - Product Listing, Cart Management, Dynamic Cart Summary, Free Gift Logic. Clean Code and Shopify-Inspired Design.",
+    "description": "This project is a Shopify-Inspired, responsive shopping cart application built with React. It demonstrates essential e-commerce features such as - Product Listing, Cart Management, Dynamic Cart Summary, Free Gift Logic. Clean Code.",
     "githubLink": "https://github.com/AjinkyaBhosale1998/React-EasyShop",
     "demoLink": "https://react-easy-shop-delta.vercel.app/"
   }

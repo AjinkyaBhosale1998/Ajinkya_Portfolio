@@ -8,18 +8,19 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import { Card } from "@mui/material";
+import { Card, useTheme } from "@mui/material";
 
 const ExperienceTimeline = ({ experienceData }) => {
+  const theme = useTheme();
   return (
     <Card sx={{
       p: 2,
       mb: 2,
-      mx: 13,
-      backgroundColor: "#f9f9f9",
+      // mx: 13,
+      backgroundColor: "background.paper",
       borderRadius: 3,
       boxShadow: 2,
-      borderLeft: "5px solid #4995E6",
+      borderLeft: `5px solid ${theme.palette.secondary.main}`,
     }}>
       <Timeline
         sx={{ marginRight: "75px" }}
@@ -30,7 +31,7 @@ const ExperienceTimeline = ({ experienceData }) => {
               <TimelineOppositeContent
                 sx={{ m: "auto 0" }}
                 variant="body3"
-                color="#132043"
+                color="text.primary"
                 dangerouslySetInnerHTML={{
                   __html: experience.date.replace(/\n/g, "<br/>"),
                 }}
@@ -42,12 +43,12 @@ const ExperienceTimeline = ({ experienceData }) => {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h5" fontWeight="bold" component="span">
+              <TimelineContent sx={{ py: "12px", px: 2, color: "text.primary" }}>
+                <Typography variant="h5"  fontWeight="bold" component="span" sx={{ fontSize: "1.2rem" }}>
                   {experience.role}
                 </Typography>
 
-                <Typography
+                <Typography sx={{ color: "text.secondary", fontSize: "0.9rem" }}
                   dangerouslySetInnerHTML={{
                     __html: experience.description.replace(/\n/g, "<br/>"),
                   }}

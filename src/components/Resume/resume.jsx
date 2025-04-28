@@ -4,10 +4,12 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import DownloadIcon from "@mui/icons-material/Download";
 import ExperienceTimeline from "./timeline.jsx";
-import { Card } from "@mui/material";
+import { Card, useTheme } from "@mui/material";
 
 const Resume = () => {
   const [experienceData, setExperienceData] = useState([]);
+  const theme = useTheme();
+  const gradient = theme.custom.primaryGradient;
 
   useEffect(() => {
     const fetchExperienceData = async () => {
@@ -37,6 +39,7 @@ const Resume = () => {
   };
 
   return (
+    <div id="experience">
     <Box
       sx={{
         color: "#132043",
@@ -45,27 +48,26 @@ const Resume = () => {
         fontSize: "700",
       }}
     >
-      <Typography variant="h3" gutterBottom>
+      <Typography variant="h3"  sx={{ background: gradient,
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent",
+        textAlign: "center",}} gutterBottom >
         Summary
       </Typography>
-      {/* <Typography variant="h6">
-        With 2.2 years of experience, I am a skilled Front-End Web Developer
-        specializing in React JS, Angular, JavaScript/TypeScript, HTML, and CSS.
-      </Typography>*/}
       <Card sx={{
         p: 2,
         mb: 2,
-        mx: 13,
-        backgroundColor: "#f9f9f9",
+        // mx: 5,
+        backgroundColor: "background.paper",
         borderRadius: 3,
         boxShadow: 2,
-        borderLeft: "5px solid #4995E6",
+        borderLeft: `5px solid ${theme.palette.secondary.main}`,
       }}>
-        <Typography variant="h6" sx={{ textAlign: "left", m: "auto 10", }}>
-          🚀  I'm obsessed with crafting pixel-perfect UIs, delivering scalable, high-performance web applications that align with business goals and user needs.
+        <Typography variant="h6" sx={{ fontSize: "1.1rem",color: "text.secondary", textAlign: "left", m: "auto 10", }}>
+        <span>🚀</span>  I'm obsessed with crafting pixel-perfect UIs, delivering scalable, high-performance web applications that align with business goals and user needs.
         </Typography>
-        <Typography variant="h6" sx={{ textAlign: "left", m: "auto 10", }}>
-          🚀 Beyond coding, I’ve actively participated in resolving production issues, addressing build failures, managing hotfixes, and tackling high-priority tasks. I’ve also guided junior developers, conducted client-side code reviews, and recently dabbed into Jenkins, Azure, and GCP for deployment and CI/CD automation.
+        <Typography variant="h6" sx={{ fontSize: "1.1rem", color: "text.secondary",textAlign: "left", m: "auto 10", }}>
+          <span>🚀</span> Beyond coding, I’ve actively participated in resolving production issues, addressing build failures, managing hotfixes, and tackling high-priority tasks. I’ve also guided junior developers, conducted client-side code reviews, and recently dabbed into Jenkins, Azure, and GCP for deployment and CI/CD automation.
         </Typography>
       </Card>
       <ExperienceTimeline experienceData={experienceData} />
@@ -79,6 +81,7 @@ const Resume = () => {
         Download Resume
       </Button>
     </Box>
+    </div>
   );
 };
 

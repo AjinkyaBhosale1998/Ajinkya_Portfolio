@@ -7,6 +7,7 @@ import Fade from "@mui/material/Fade";
 import Paper from "@mui/material/Paper";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function BottomEndPopper() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -48,13 +49,13 @@ export default function BottomEndPopper() {
         {({ TransitionProps }) => (
           <Fade {...TransitionProps} timeout={350}>
             <Paper>
-              <Typography variant="h6" sx={{ fontSize: "2rem", mb: 0.5, p: 1 }}>
+              <Typography variant="h6" sx={{ fontSize: "1.5rem", mb: 0.5, p: 1 }}>
                 Contact Information
               </Typography>
               <Typography
                 variant="body1"
                 sx={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.2rem",
                   display: "flex",
                   alignItems: "center",
                   mb: 0,
@@ -75,7 +76,7 @@ export default function BottomEndPopper() {
               <Typography
                 variant="body1"
                 sx={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.2rem",
                   display: "flex",
                   alignItems: "center",
                   p: 1,
@@ -84,11 +85,29 @@ export default function BottomEndPopper() {
                 <PhoneIcon sx={{ mr: 1, fontSize: "2rem" }} />
                 +91 88560-49947
               </Typography>
+              <Typography
+                variant="body1"
+                sx={{
+                  fontSize: "1.2rem",
+                  display: "flex",
+                  alignItems: "center",
+                  p: 1,
+                }}
+              >
+                <LocationOnIcon sx={{ mr: 1, fontSize: "2rem" }}/>
+                Pune, India
+              </Typography>
             </Paper>
           </Fade>
         )}
       </Popper>
-      <Button component="a" onClick={handleClick} sx={{ color: "#132043" }}>
+      <Button component="a" onClick={handleClick} sx={{
+        mr: 1,
+        fontSize: "2rem",
+        "& .MuiButton-root": {
+          color: "#132043",
+        },
+      }}>
         <EmailIcon />
       </Button>
     </Box>

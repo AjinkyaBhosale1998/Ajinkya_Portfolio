@@ -11,12 +11,12 @@ import SendIcon from "@mui/icons-material/Send";
 
 const ImgMediaCard = ({ title, image, description, githubLink, demoLink }) => {
   return (
-    <Box sx={{ padding: "50px 25px" }}>
+    <Box sx={{ padding: "40px 20px" }}>
       <Card
         sx={{
           maxWidth: 400,
           boxShadow: "0 10px 20px rgba(19, 32, 67, 0.5)",
-          color: "#132043",
+          color: "text.secondary",
         }}
       >
         <CardMedia
@@ -30,7 +30,7 @@ const ImgMediaCard = ({ title, image, description, githubLink, demoLink }) => {
             gutterBottom
             variant="h5"
             component="div"
-            sx={{ color: "#132043", fontWeight: "bold" }}
+            sx={{ color: "text.primary", fontWeight: "bold" }}
           >
             {title}
           </Typography>

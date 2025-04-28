@@ -4,8 +4,11 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "./contact.css";
+import { useTheme } from "@emotion/react";
 
 const Contact = () => {
+  const theme = useTheme();
+  const gradient = theme.custom.primaryGradient;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -25,12 +28,17 @@ const Contact = () => {
   };
 
   return (
+    <div id="contact">
     <Box
       className="contact-container"
       sx={{ textAlign: "center", padding: "50px" }}
     >
-      <Typography variant="h2" gutterBottom>
-        Contact Me
+      <Typography variant="h3" gutterBottom 
+      sx={{ background: gradient,
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent",
+        textAlign: "center", }}>
+        Contact
       </Typography>
 
       <form onSubmit={handleSubmit} className="contact-form">
@@ -70,15 +78,16 @@ const Contact = () => {
           onChange={handleChange}
           required
           fullWidth
-          sx={{ marginBottom: "20px" }}
+          sx={{ marginBottom: "30px" }}
         />
-        <div style={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}>
-          <Button type="submit" variant="contained" size="large" style={{ bgcolor: "#132043" }}>
+        <div style={{ display: "flex", justifyContent: "center",margin:"1rem" }}>
+          <Button type="submit" variant="contained" size="large" style={{ marginBottom:"5rem" }}>
             Submit
           </Button>
         </div>
       </form>
     </Box>
+    </div>
   );
 };
 

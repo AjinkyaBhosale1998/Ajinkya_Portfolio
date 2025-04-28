@@ -53,7 +53,7 @@
   }
 
   .frontend {
-    animation: colorChange 5s infinite;
+    animation: colorChange 15s infinite;
   }
   
   .react {
@@ -61,9 +61,9 @@
   }
   
   .developer {
-    animation: colorChangeDeveloper 5s infinite;
+    animation: colorChangeDeveloper 15s infinite;
   }
   
   .cool {
-    animation: colorChangeDeveloper 10s infinite;
+    animation: colorChangeDeveloper 15s infinite;
   }
