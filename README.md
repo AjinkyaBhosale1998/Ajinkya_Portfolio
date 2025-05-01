@@ -1,5 +1,9 @@
+## Dark Mode -
+![darkmode](https://github.com/user-attachments/assets/4f77369a-299a-4342-b129-cd39e799d5f9)
 
-![ajinkya-portfolio-git-update-ajinkya-bhosales-projects-vercel-app-2025-02-18-03_17_14](https://github.com/user-attachments/assets/ddae36fb-802b-4a61-8557-ed578b34b59f)
+## Light mode - 
+![lightmode](https://github.com/user-attachments/assets/1912c5a0-fb44-489b-958b-c00343c9b653)
+
 
 # Getting Started with Create React App
 
