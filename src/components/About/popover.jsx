@@ -52,39 +52,43 @@ export default function BottomEndPopper() {
               <Typography variant="h6" sx={{ fontSize: "1.5rem", mb: 0.5, p: 1 }}>
                 Contact Information
               </Typography>
-              <Typography
-                variant="body1"
+              <Box
+                component="a"
+                href="mailto:bhosaleajinkya1998@gmail.com"
                 sx={{
-                  fontSize: "1.2rem",
                   display: "flex",
                   alignItems: "center",
-                  mb: 0,
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontSize: "1.2rem",
                   p: 1,
+                  "&:hover": {
+                    textDecoration: "underline",
+                  },
                 }}
               >
-                <EmailIcon
-                  sx={{
-                    mr: 1,
-                    fontSize: "2rem",
-                    "& .MuiButton-root": {
-                      color: "#132043",
-                    },
-                  }}
-                />
+                <EmailIcon sx={{ mr: 1, fontSize: "2rem" }} />
                 bhosaleajinkya1998@gmail.com
-              </Typography>
-              <Typography
-                variant="body1"
+              </Box>
+              <Box
+                component="a"
+                href="tel:+918856049947"
                 sx={{
-                  fontSize: "1.2rem",
                   display: "flex",
                   alignItems: "center",
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontSize: "1.2rem",
                   p: 1,
+                  "&:hover": {
+                    textDecoration: "underline",
+                  },
                 }}
               >
                 <PhoneIcon sx={{ mr: 1, fontSize: "2rem" }} />
-                +91 88560-49947
-              </Typography>
+                +91 88560 49947
+              </Box>
+
               <Typography
                 variant="body1"
                 sx={{
@@ -94,7 +98,7 @@ export default function BottomEndPopper() {
                   p: 1,
                 }}
               >
-                <LocationOnIcon sx={{ mr: 1, fontSize: "2rem" }}/>
+                <LocationOnIcon sx={{ mr: 1, fontSize: "2rem" }} />
                 Pune, India
               </Typography>
             </Paper>

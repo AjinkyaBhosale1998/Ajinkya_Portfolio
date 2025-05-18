@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ImgMediaCard from "./card.jsx";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import { Box, Card, Grid, useTheme  } from "@mui/material";
+import { Box, Card, Grid, useTheme } from "@mui/material";
 import SportsCricketIcon from '@mui/icons-material/SportsCricket';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import SportsGymnasticsIcon from '@mui/icons-material/SportsGymnastics';
@@ -51,22 +51,22 @@ const Project = () => {
     <>
       <div id="projects" style={{ textAlign: "center" }}>
         <div>
-        <Typography
-      variant="h3"
-      gutterBottom
-      sx={{
-        background: gradient,
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent",
-        textAlign: "center",
-      }}
-    >
-      My Recent Projects
-    </Typography>
+          <Typography
+            variant="h3"
+            gutterBottom
+            sx={{
+              background: gradient,
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              textAlign: "center",
+            }}
+          >
+            My Recent Projects
+          </Typography>
           <Card sx={{
-            p: 2,
+            p: { xs: 2, sm: 3 },
             mb: 2,
-            mx: 14,
+            mx: { xs: 3, sm: 3, md: 5, lg: 7 },
             backgroundColor: "background.paper",
             borderRadius: 3,
             boxShadow: 2,
@@ -164,9 +164,7 @@ const Project = () => {
                     <Typography
                       variant="h6"
                       sx={{
-                        // mt: 1,
                         p: 1,
-                        // fontSize: "1.2rem",
                         fontWeight: 500,
                         color: "text.primary",
                         textAlign: "center",
