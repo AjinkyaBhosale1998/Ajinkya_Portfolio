@@ -1,0 +1,41 @@
+/* resumeButtons.css */
+
+.resume-button {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #1976d2; /* MUI primary default */
+  border: none;
+  cursor: pointer;
+  transition: color 0.4s ease;
+  z-index: 1;
+}
+
+.resume-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #9c27b0; /* MUI secondary default */
+  z-index: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+.resume-button:hover::before {
+  width: 100%;
+}
+
+.resume-button:hover {
+  color: #fff;
+}
+
+.resume-button span,
+.resume-button svg {
+  position: relative;
+  z-index: 1;
+}
