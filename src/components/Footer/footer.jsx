@@ -39,7 +39,7 @@ const Footer = () => {
         position: "fixed",
         bottom: 0,
         textAlign: "center",
-        paddingY: 2,
+        py: { xs: 3, sm: 4 },
         px: { xs: 2, sm: 4, md: 8 },
         backgroundColor: "background.paper",
         transition: "transform 0.3s ease-in-out",
@@ -60,45 +60,30 @@ const Footer = () => {
         </Grid>
 
         <Grid item xs={12} sm={4} textAlign="center">
-          <BottomNavigation
-            showLabels={false}
-            sx={{
-              justifyContent: "center",
-              backgroundColor: "transparent",
-              flexWrap: "wrap",
-              gap: 1,
-            }}
-          >
-            <BottomNavigationAction
-              href={githubRepositoryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ color: "text.primary" }}
-              icon={<GitHubIcon />}
-            />
-            <BottomNavigationAction
-              href={linkedInUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ color: "text.primary" }}
-              icon={<LinkedInIcon />}
-            />
-            <BottomNavigationAction
-              href={vercelUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ color: "text.primary", transform: "rotate(-90deg)" }}
-              icon={<PlayArrow />}
-            />
-            <BottomNavigationAction
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ color: "text.primary" }}
-              icon={<YouTubeIcon />}
-            />
-          </BottomNavigation>
-        </Grid>
+  <Box
+    sx={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexWrap: "wrap",
+      gap: 8,
+    }}
+  >
+    <Box component="a" href={githubRepositoryUrl} target="_blank" rel="noopener noreferrer" sx={{ color: "text.primary" }}>
+      <GitHubIcon />
+    </Box>
+    <Box component="a" href={linkedInUrl} target="_blank" rel="noopener noreferrer" sx={{ color: "text.primary" }}>
+      <LinkedInIcon />
+    </Box>
+    <Box component="a" href={vercelUrl} target="_blank" rel="noopener noreferrer" sx={{ color: "text.primary", transform: "rotate(-90deg)" }}>
+      <PlayArrow />
+    </Box>
+    <Box component="a" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" sx={{ color: "text.primary" }}>
+      <YouTubeIcon />
+    </Box>
+  </Box>
+</Grid>
+
 
         <Grid item xs={12} sm={4} textAlign={{ xs: "center", sm: "right" }}>
           <Typography
